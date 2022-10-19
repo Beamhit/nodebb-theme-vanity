@@ -1,0 +1,58 @@
+/*****************************\
+        Vanity Role Play
+		Node BB Theme CSS       
+\*****************************/
+
+@import 'mff/ubuntu_font';
+
+// Banner
+#banner {
+    //background: url(/assets/plugins/@vanity/nodebb-theme-vanity/images/background.jpg);
+    //background-repeat: no-repeat;
+    //width: 100%;
+    //height: 100%;
+    //background-size: cover;
+    //background-repeat: no-repeat;
+    //background-color: aqua;
+    //background-origin: padding-box;    
+    //background-origin: content-box;
+    width: 100%;
+    top: -20px;
+    position: relative;
+    //left: auto;
+    //right: 0;
+}
+
+#ibanner {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// make the forum larger on desktop
+@media (min-width: 1600px) {
+    .container {
+        width: 70.00%;
+    }
+}
+@import 'mff/navbar';
+@import 'mff/footer';
+@import 'mff/section';
+@import 'mff/topic';
+@import 'mff/category';
+@import 'mff/categories';
+@import 'mff/buttons';
+@import 'mff/attachedicons';
+
+// Persona .fab enter in conflict with font awesome branding icon. Override to default.
+i.fab {
+	box-shadow: none;
+
+	background-color: initial;
+	border: none;
+	cursor: pointer;
+	line-height: initial;
+	vertical-align: initial;
+	height: auto;
+	width: auto;
+}

@@ -1,0 +1,49 @@
+{
+    "name": "@vanity/nodebb-theme-vanity",
+    "version": "4.3.2",
+    "nbbpm": {
+        "compatibility": "^2.0.0"
+    },
+    "description": "Vanity RolePlay theme for NodeBB",
+    "homepage": "https://github.com/Beamhit/nodebb-theme-vanity#readme",
+    "main": "library.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Beamhit/nodebb-theme-vanity.git"
+    },
+    "keywords": [
+        "nodebb",
+        "theme",
+        "forum",
+        "bootstrap",
+        "responsive"
+    ],
+    "contributors": [
+        {
+            "name": "Woryk"
+        },
+        {
+            "name": "Robin Biechy",
+            "email": "robin4002@gmail.com",
+            "url": "https://github.com/robin4002"
+        },
+        {
+            "name": "Damien ANDRÉ",
+            "email": "superloup10@gmail.com",
+            "url": "https://github.com/superloup10"
+        },
+        {
+            "name": "Lorenz0#7333",
+            "email": "pipowinrp@gmail.com",
+            "url": "https://github.com/Beamhit"
+        }
+    ],
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/Beamhit/nodebb-theme-vanity/issues"
+    },
+    "dependencies": {
+        "pulling": "^2.0.1",
+        "striptags": "^3.2.0"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "id": "@vanity/nodebb-theme-vanity",
+    "name": "Theme Vanity",
+    "description": "Vanity theme for NodeBB.",
+    "url": "https://github.com/Beamhit/nodebb-theme-vanity.git",
+    "screenshot": "screenshot.png",
+    "baseTheme": "nodebb-theme-persona"
+}
