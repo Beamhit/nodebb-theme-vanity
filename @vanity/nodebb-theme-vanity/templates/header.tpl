@@ -42,7 +42,7 @@
 			<!-- MFF change: container-fuild and add shard and logo END -->
 		</nav>
 		<!-- MFF change: banner -->
-		<div id="banner"><img src="/assets/plugins/@vanity/nodebb-theme-vanity/images/background.jpg" alt="banner" id="ibanner"></div></div>
+		<div id="banner"><img src="/assets/plugins/@vanity/nodebb-theme-vanity/images/background.png" alt="banner" id="ibanner"></div></div>
 		<!-- MFF change: banner END -->
 		<div class="container" id="content">
         <!-- IMPORT partials/noscript/warning.tpl -->
